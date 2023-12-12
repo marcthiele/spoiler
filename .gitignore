@@ -12,5 +12,6 @@ codekit-config.json
 /site/config/config.beyondtellerrand.local.php
 /site/config/config.beta.beyondtellerrand.local.php
 site/config/.license
-beyondtellerrand.code-workspace
+spoiler.code-workspace
+*.code-workspace
 .license
