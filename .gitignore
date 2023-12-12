@@ -1,0 +1,16 @@
+.DS_Store
+codekit-config.json
+/thumbs
+*.sublime-workspace
+*.codekit3
+/site/sessions
+/media
+/site/accounts
+/site/cache
+/config.codekit3
+/site/config/config.beyondtellerrand.test.php
+/site/config/config.beyondtellerrand.local.php
+/site/config/config.beta.beyondtellerrand.local.php
+site/config/.license
+beyondtellerrand.code-workspace
+.license
