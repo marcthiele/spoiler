@@ -14,10 +14,6 @@
 <meta name="MobileOptimized" content="320" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
-<!-- Typekit -->
-<script src="https://use.typekit.net/lio4bzn.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
-
 <style>
 
 html {
@@ -29,13 +25,14 @@ body {
   height: 100%;
   background-color: #000;
   margin: 0 auto;
-  font-family:  "museo-sans-condensed";
+  font-family: 'Trebuchet MS', Helvetica, Verdana, Arial, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 1em;
 }
 .container {
   height: 100%;
+  width: 100%;
   position: relative;
   margin: 1em;
 }
@@ -45,6 +42,16 @@ body {
 }
 img {
   width: 100%;
+}
+.bandphoto {
+  width: 80%;
+  margin-top: 2em;
+  border: 7px solid #fff;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  transform: rotate(3deg);
 }
 p {
   color: #ccc;
@@ -57,32 +64,44 @@ a {
 a:hover {
   color: #cf1d0b;
 }
-.singersearch {
-  line-height: 1px;
-  height: 1px;
-  overflow: hidden;
-  text-indent: -9999px;
+.social {
+  margin: 2em 0;
+  text-align: center;
 }
-.gallery {
-  width: 100%;
+.social li:not(:last-child):after {
+  padding: 0;
+  content: '';
 }
-.gallery img {
-  margin: 0.5em 0;
+ul {
+  padding: 0;
 }
-.portrait {
-  width: 100%;
-  height: auto;
+.social li {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
 }
-.landscape {
-  width: 100%;
-  height: auto;
-}
-.group:after {
-  height: 0;
+.social a {
+  width: 50px;
+  height: 50px;
   display: block;
-  visibility: hidden;
-  clear: both;
-  content: '.';
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: left;
+  text-indent: -9999px;
+  opacity: .75;
+}
+.social a:hover {
+  opacity: 1;
+}
+.social .instagram {
+  background-image: url(images/instagram.svg);
+}
+.social .youtube {
+  background-image: url(images/youtube.svg);
+}
+.social .tiktok {
+  background-image: url(images/tiktok.svg);
 }
 
 @media screen and (min-width: 769px) {
@@ -91,56 +110,11 @@ a:hover {
   }
   .content {
     max-width: 1280px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 0 auto;
   }
-  .gallery {
-    overflow: auto;
-    text-align: center;
-  }
-  .gallery img {
-    display: inline-block;
-    border: 2px solid #ccc;
-  }
-  .portrait1 {
+  .bandphoto {
     width: auto;
-    height: 200px;
-    -webkit-transform: rotate(-5deg);
-    -moz-transform: rotate(-5deg);
-    -ms-transform: rotate(-5deg);
-    -o-transform: rotate(-5deg);
-    transform: rotate(-5deg);
-  }
-  .portrait2 {
-    width: auto;
-    height: 200px;
-    -webkit-transform: rotate(-3deg);
-    -moz-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    transform: rotate(-3deg);
-  }
-  .landscape1 {
-    width: 200px;
-    height: auto;
-    margin-bottom: 33px !important;
-    -webkit-transform: rotate(5deg);
-    -moz-transform: rotate(5deg);
-    -ms-transform: rotate(5deg);
-    -o-transform: rotate(5deg);
-    transform: rotate(5deg);
-  }
-  .landscape2 {
-    width: 200px;
-    height: auto;
-    margin-bottom: 33px !important;
-    -webkit-transform: rotate(2deg);
-    -moz-transform: rotate(2deg);
-    -ms-transform: rotate(2deg);
-    -o-transform: rotate(2deg);
-    transform: rotate(2deg);
+    border: 10px solid #fff;
   }
 }
 
@@ -152,14 +126,17 @@ a:hover {
 
 <div class="container">
   <div class="content">
-    <img class="logo" src="images/logo.jpg">
-    <p>Thanks for dropping by If you are interested in following our rehearsal and song writing process, follow us on <a href="https://instagram.com/spoiler.band">Instagram</a>, <a href="https://tiktok.com/@spoiler.band">TikTok</a> and <a href="https://youtube.com/@spoiler-band">YouTube</a>. Next show: 5. April 2025 – <a href="https://www.instagram.com/p/DFUunT_Nn09/?img_index=1">Rock am Dock, Neuss</a>.</p>
-    <div class="gallery group">
-      <img class="portrait1" src="images/stefan.jpg"><!--
-      --><img class="landscape1" src="images/henning.jpg"><!--
-      --><img class="portrait2" src="images/marc.jpg"><!--
-      --><img class="landscape2" src="images/stu.jpg"><!--
-      --><img class="portrait1" src="images/dirk.jpg">
+    <p><img class="logo" src="images/logo.jpg"></p>>
+    <p>Thanks for dropping by!<br>If you are interested in following our rehearsal and song writing process, follow us on <a href="https://instagram.com/spoiler.band">Instagram</a>, <a href="https://tiktok.com/@spoiler.band">TikTok</a> and <a href="https://youtube.com/@spoiler-band">YouTube</a>.</p>
+    <p>Next show: TBA<br />
+    Last show: 5. April 2025 – Rock am Dock II, Neuss.</p>
+    <img class="bandphoto" src="images/band-2024.jpg">
+    <div class="social" role="navigation">
+      <ul>
+        <li><a class="youtube" href="https://www.youtube.com/@spoiler-band" title="SPOILER YouTube channel">SPOILER on YouTube</a></li>
+        <li><a class="instagram" href="https://www.instagram.com/spoiler.band" title="SPOILER on Instagram">SPOILER on Instagram</a></li>
+        <li><a class="tiktok" href="https://tiktok.com/@spoiler.band" title="SPOILER on TikTok">SPOILER on TikTok</a></li>
+      </ul>
     </div>
   </div>
 </div>
