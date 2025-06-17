@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /download/
+Disallow: /site/
+Disallow: /kirby/
+Disallow: /assets/css/
+Disallow: /assets/tf/
+Disallow: /content/aufnahme/
+Disallow: /content/recording/

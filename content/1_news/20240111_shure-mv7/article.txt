@@ -1,0 +1,68 @@
+Title: Shure MV7
+
+----
+
+Description: Ich habe mir das Shure MV7 zugelegt und plane das an Gäste zu versenden, mit denen ich remote aufnehme und die keine eigenes, gutes Mikrofon haben. Hier ein kleiner Test und Eindrücke direkt nach dem Auspacken.
+
+----
+
+Date: 2024-01-11 14:59
+
+----
+
+Tags: mikrofon, shure, mv7
+
+----
+
+Text:
+
+Zunächst einmal hoffe ich, dass du gut in 2024 gestartet bist und es dir gut geht. Kurz vor Weihnachten habe ich [die letzte Folge 2023](https://neu-gierig.fm/podcast/die-menschliche-seite-herauskehren-sven-saro#content-start) aufgenommen und während [der Aufnahme mit Sven](https://neu-gierig.fm/podcast/die-menschliche-seite-herauskehren-sven-saro#content-start) haben wir darüber gesprochen, wie wir mit Gästen umgehen, die kein gutes Mikrofon besitzen. Er sprach dann davon, dass er einige Zeit lang ein Mikrofon versendet hat, was diese Gäste dann nutzen konnten. Das muss natürlich leicht anzuschließen sein und von Hause aus gut klingen. Man will ja niemandem zumuten noch groß etwas konfigurieren zu müssen. Es kommt daher fast nur ein USB Mikrofon in Frage, das man einfach an den Rechner anschließen kann und welches vom System direkt als Eingabemedium erkannt wird.
+
+Ich selber spiele schon lange mit genau der Idee, habe sie bisher aber noch nicht umgesetzt. Seit das [Shure MV7](https://thmn.to/thoprod/504144?partner_id=42986) heraus kam, habe ich das nun wieder im Kopf und der Impuls, als ich nun mit Sven drüber sprach war, dass ich mir doch genau dieses Mikro dafür mal anschaue.
+
+(image: mv7-01.webp caption: Das Mikrofon kommt in einer soliden Verpackung alt: Ein Foto von der Verpackung des Shure MV7, die weiß ist und das schwarze Mikrofon von der Seite zeigt)
+
+Mein Plan ist es nun mir eine gute Verpackung/Box für den Versand zuzulegen, in der das Mikrofon gut geschützt ist und da bin ich gerade noch auf der Suche – solltest du eine Idee haben, was da in Frage kommt, [sag mir doch gerne Bescheid](mailto:marc@neu-gierig.fm). Aktuell gucke ich nach kleinen Cases wie einem [Pelicase](https://www.peli.com/eu/en/products/cases/camera-cases), mit dem ich das versenden kann. Super wäre es natürlich, wenn die Versandbox ein Zahlenschloss hätte, damit man nicht zusätzlich zum Case auch noch einen Umkarton benötigt. Ich gebe hier ein Update, sobald ich eine gute Lösung gefunden habe.
+
+Außerdem wollte ich euch einmal einen Eindruck geben, was alles beim Kauf dabei ist, wie robust das MV7 ist und wie es klingt ohne jegliche Einstellungen vorzunehmen, denn – wie gesagt – ich würde niemandem zumuten wollen noch viele Einstellungen vorzunehmen. Auspacken, anschließen und loslegen.
+
+(image: mv7-02.webp caption: Das MV7 ist gut verarbeitet und wird mit zweierlei USB Kabel und einem Gewindeadapter ausgeliefert alt: Auf diesem Foto sieht man den Verpackungsinhalt: Das Mikrofon, das schwarz ist, zwei USB Kabel, ordentlich zusammen gefaltet, und ein goldener Gewindeadapter vom großen Gewinde der Halterung auf eine kleinere)
+
+Grundsätzlich ist das Shure MV7 echt ordentlich verarbeitet und erinnert an Form und auch Verarbeitung an die „große Schwester“, das [Shure SM 7 B](https://thmn.to/thoprod/129929?partner_id=42986). Neben dem Mikrofon inkl. Halterung befindet sich ein 3m Micro-B auf USB-A-Kabel, ein 3m Micro-B auf USB-C-Kabel und ein zusätzliches 5/8"-Gewinde in der Verpackung. 
+
+Nach dem Auspacken habe ich das Micro-B auf USB-C-Kabel angeschlossen und mit meinem M2 Macbook Air verbunden. Nach der Bestätigung, dass es ok ist diese neue Hardware zu verwenden, habe ich mir in den Systemeinstellungen angesehen, dass das Mikrofon korrekt erkannt worden ist.
+
+(image: settings.webp caption: Nach dem Anschließen per USB wird das Shure MV7 problemlos erkannt und kann direkt genutzt werden alt: Hier sieht man eine Collage von Dialogen, die auf dem Mac in den Einstellungen zu sehen sind, wenn man das Mikrofon anschließt)
+
+Auf dem Rechner habe ich Logic Pro gestartet, und dort das Mikrofon in den Audio-Einstellungen ausgewählt. Ohne jede weitere Einstellung – weder am Mikrofon noch in Logic – habe ich dann aufgenommen. Das ist dabei raus gekommen …
+
+(audio: shure-mv7-usb.mp3)
+
+Danach habe ich dann das MV7 per XLR Kabel (nicht im Lieferumfang enthalten) an meinen Rode Rodecaster Pro angeschlossen. Dort habe ich vorher sicher gestellt, dass kein zusätzliches Audio-Processing aktiviert ist und auch hier in Logic Pro einfach auf Aufnahme geklickt. Das klang dann so …
+
+(audio: shure-mv7-xlr.mp3)
+
+Im Vorfeld hatte ich gelesen, dass das Shure MV7 per XLR deutlich besser klänge, was ich an dieser Stelle nicht wirklich bestätigen kann. Ich weiß allerdings nicht, ob dort noch Einstellungen vorgenommen wurden, die den Klang verbesserten. 
+
+Preislich ist die UVP mit €329 angegeben. Der Durchschnittspreis bei Thomann oder dem Music Store liegt bei €269 und in einigen Online Shops bekommt ihr es für um die €240. Kein extrem günstiger Schnapp, ich weiß, aber dafür benötigt man eben auch kein zusätzliches Audio-Interface. Zum Vergleich: ein [Shure SM58](https://thmn.to/thoprod/105767?partner_id=42986) liegt bei rund €100 und ein Einsteiger Audio Interface, wie ein [Focusrite Scarlett](https://thmn.to/thoprod/467950?partner_id=42986) bei ca. €120. Und man ist schnell bei mehr, wenn man anständige Pre-Amps haben möchte. Und meine Idee, es unkompliziert für meinen Gast zu halten, schließt diese Lösung eh aus, weil häufig dann auch noch Treiber installiert werden müssen usw. usw. …
+
+Ich selber bin echt zufrieden mit dem Klang der reinen USB Aufnahme und denke, dass das jeder einfach hin bekommt. Ich werde mich also jetzt noch mit zwei Dingen beschäftigen, bevor ich es versende:
+
+- einer guten Versandlösung, also einem Case
+- einer Anleitung für das Aufnehmen mit mitgelieferter Software am Mac und unter Windows
+
+Hier noch ein paar visuelle Eindrücke vom Mikrofon.
+
+(image: mv7-03.webp alt: Das Foto zeigt das MV7 Mikro von der Seite)
+
+(image: mv7-04.webp alt: Das Foto zeigt das MV7 Mikrofon von hinten und man erkennt die Anschlüsse: XLR, USB und Miniklinke für den Kopfhörer)
+
+(image: mv7-05.webp alt: Ein foto des Mikrofons von oben und man erkennt die Anzeige, die auf der Oberseite angebracht ist und an der man Lautstärke und andere Einstellungen ablesen kann)
+
+****
+
+<span class="footnote">Alle Links zu Produkten in diesem Beitrag sind Affiliate Links. Für euch macht die Nutzung keinen Unterschied, aber für mich schon für den Fall, dass ihr euch entscheidet darüber etwas zu kaufen – Danke!</span>
+
+----
+
+Uuid: APs3mQYAY1L1vnfg
