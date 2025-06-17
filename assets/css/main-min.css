@@ -20,7 +20,9 @@ Text: Noto Sans
   --cta-color: #c49b60;
   --cta-hover-color: #e76f51;
   --cta-underline-color: #f7e277;
+  --border-color: #d5b987
 }
+
 
 /* Reset
 -------------------------------------------------- */
@@ -47,6 +49,7 @@ summary {
   display: block;
 }
 
+
 /* Misc
 -------------------------------------------------- */
 ::-moz-selection {
@@ -57,6 +60,7 @@ summary {
   background: #264653;
   color: #f9f4ed;
 }
+
 
 /* Fonts
 -------------------------------------------------- */
@@ -96,6 +100,7 @@ summary {
   src: url('/assets/tf/roboto-slab-v35-latin-900.woff2') format('woff2');
 }
 
+
 /* Layout
 -------------------------------------------------- */
 html {
@@ -133,6 +138,14 @@ body {
   width: 90%;
   max-width: 1280px;
 }
+hr {
+  display: block;
+  height: 1px;
+  margin: 2rem 0;
+  border: 0;
+  background-color: var(--border-color);
+}
+
 
 /* Headlines
 -------------------------------------------------- */
@@ -175,6 +188,7 @@ h5 {
 h6 {
   font-size: 1rem;
 }
+
 
 /* Text
   -------------------------------------------------- */
@@ -269,6 +283,7 @@ h6 {
     font-size: 0.763rem;
   }
 
+
 /* Links
 -------------------------------------------------- */
 a,
@@ -314,6 +329,7 @@ h6 a:hover,
 h6 a:active {
   color: var(--cta-hover-color);
 }
+
 
 /* Header
 -------------------------------------------------- */
@@ -482,6 +498,7 @@ nav.nav-social ul li a:active svg path {
   }*/
 }
 
+
 /* Main Content
 -------------------------------------------------- */
 .main {
@@ -569,7 +586,7 @@ audio {
   grid-column: 2;
   display: flex;
   margin: 0;
-  border-top: #d5b987 1px dotted;
+  border-top: var(--border-color) 1px solid;
   padding: 1.526rem 0 0 0;
   list-style-type: none;
 }
