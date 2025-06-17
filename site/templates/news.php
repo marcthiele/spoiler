@@ -7,15 +7,6 @@
       <div class="post-meta">
         <time datetime="<?= $blogpost->date()->toDate('%F') ?>"><?= $blogpost->date()->toDate('%e. %B %G'); ?></time>
       </div>
-      <div class="tag-container">
-        <?php if ($blogpost->tags() != ''): ?>
-        <ul class="tags">
-          <?php foreach($blogpost->tags()->split() as $tag): ?>
-          <li><a href="<?= url('/search?q=' . urlencode($tag)) ?>">#<?= $tag; ?></a></li>
-          <?php endforeach ?>
-        </ul>
-        <?php endif ?>
-      </div>
       <h1><a href="<?= $blogpost->url() ?>"><?= $blogpost->title() ?></a></h1>
       <p class="post-summary"><?= $blogpost->description() ?></p>
       <a class="read-on-link" href="<?= $blogpost->url() ?>">Weiterlesen</a>
