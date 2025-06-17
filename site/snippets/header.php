@@ -10,7 +10,7 @@
 
   <?php snippet(['meta/' . $page->template(), 'meta/default']) ?>
 
-  <link rel="icon" type="image/png" href="https://spoiler.band/favicon.png">
+  <link rel="icon" type="image/png" href="https://spoiler.band/assets/images/favicon.png">
 
   <!-- meta stuff for devices -->
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
