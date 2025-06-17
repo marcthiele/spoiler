@@ -6,15 +6,6 @@
       <div class="post-meta">
         <time datetime="<?= $page->date()->toDate('%F') ?>"><?= $page->date()->toDate('%e. %B %G'); ?></time>
       </div>
-      <div class="tag-container">
-        <?php if ($page->tags() != ''): ?>
-        <ul class="tags">
-          <?php foreach($page->tags()->split() as $tag): ?>
-          <li><a href="<?= url('/search?q=' . urlencode($tag)) ?>">#<?= $tag; ?></a></li>
-          <?php endforeach ?>
-        </ul>
-        <?php endif ?>
-      </div>
       <h1><?= $page->title() ?></h1>
       <div class="post-text"><?= $page->text()->kirbytext() ?></div>
     </div>
