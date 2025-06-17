@@ -1,0 +1,12 @@
+{
+  "name": "Audio Tag",
+  "description": "Creates a Kirby Tag for audio files/links",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Marc Thiele",
+          "email": "info@marcthiele.com"
+      }
+  ]
+}
