@@ -114,6 +114,9 @@ ul {
     left: 50%;
     transform: translate(-50%, -50%);
   }
+  .logo {
+    margin-top: 400px;
+  }
   .bandphoto {
     width: auto;
     border: 10px solid #fff;
@@ -128,7 +131,7 @@ ul {
 
 <div class="container">
   <div class="content">
-    <img class="logo" src="assets/images/spoiler-logo-white.png">
+    <img class="logo" src="assets/images/spoiler-logo.jpg">
     <p>Thanks for dropping by!<br>If you are interested in following our rehearsal and song writing process, follow us on <a href="https://instagram.com/spoiler.band">Instagram</a>, <a href="https://tiktok.com/@spoiler.band">TikTok</a> and <a href="https://youtube.com/@spoiler-band">YouTube</a>.</p>
     <p>Next shows:<br />
     13. September 2025 – JZ Henri, Moers – with <a href="https://drowninembers.com/">Drown in Embers</a> and TBA<br />
