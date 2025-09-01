@@ -1,0 +1,23 @@
+title: News
+
+columns:
+  - width: 1/2
+    sections:
+      listed:
+        type: pages
+        sortBy: num desc
+        headline: Veröffentlicht
+        parent: site.find("news")
+        info: "{{ page.date.toDate('%d.%m.%Y, %H:%M Uhr') }}"
+        limit: 10
+        status: listed
+  - width: 1/2
+    sections:
+      drafts:
+        type: pages
+        sortBy: num desc
+        headline: Entwürfe
+        parent: site.find("news")
+        info: "{{ page.date.toDate('%d.%m.%Y, %H:%M Uhr') }}"
+        limit: 10
+        status: draft
