@@ -7,27 +7,25 @@
         <div class="footer-links">
           <h4>Dates</h4>
           <ul>
-            <li><a href="/imprint">Impressum</a></li>
-            <li><a href="/privacy">Datenschutz</a></li>
-            <li><a href="/feed">RSS Feed vom Blog</a></li>
-            <li><a href="mailto:marc@neu-gierig.fm">Kontakt</a></li>
-            <li><a href="https://marcthiele.com">Marc Thiele</a></li>
+            <li>99. September 2025</li>
+            <li>79. Oktober 2025</li>
+            <li>12. November 2025</li>
+            <li>6. Dezember 2025</li>
           </ul>
         </div>
         <div class="footer-links">
         <h4>Mehr von uns!</h4>
           <ul>
-            <li><a rel="me" href="https://podcasts.social/@neugierig_fm">Mastodon</a></li>
-            <li><a rel="me" href="https://instagram.com/neugierig.fm">Instagram</a></li>
-            <li><a rel="me" href="https://bsky.app/profile/neu-gierig.fm">Bluesky</a></li>
-            <li><a href="https://www.youtube.com/channel/UC3wj0eceyLkq6kKq-mrZi9w">YouTube</a></li>
-            <li><a href="https://letscast.fm/podcasts/neu-gierig-8452c935/feed">Podcast RSS</a></li>
+            <li><a href="https://www.youtube.com/@spoiler-band">YouTube</a></li>
+            <li><a rel="me" href="https://instagram.com/spoiler.band">Instagram</a></li>
+            <li><a rel="me" href="https://bsky.app/profile/spoiler.band">Bluesky</a></li>
+            <li><a href="https://tiktok.com/@spoiler.band">TikTok</a></li>
           </ul>
         </div>
         <div class="footer-links">
           <h4>Kontakt</h4>
           <ul>
-            <li><a href="mailto:marc@neu-gierig.fm">Booking</a></li>
+            <li><a href="mailto:booking@spoiler.band">Booking</a></li>
             <li><a href="/imprint">Impressum</a></li>
             <li><a href="/privacy">Datenschutz</a></li>
           </ul>

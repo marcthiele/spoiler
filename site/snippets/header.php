@@ -29,7 +29,7 @@
       </div>
       <nav class="nav-main" role="navigation">
         <ul>
-          <?php foreach($pages->find('news', 'gigs', 'media-and-merch', 'band', 'press') AS $page): ?>
+          <?php foreach($pages->find('gigs', 'news', 'media-and-merch', 'band', 'press') AS $page): ?>
           <li class="nav-item nav-<?= $page->uid() ?>"><a class="nav-link <?php if($page->isOpen()) echo 'active' ?>" href="<?= $page->url() ?>"><?= $page->title()->html() ?></a></li>
           <?php endforeach ?>
         </ul>
