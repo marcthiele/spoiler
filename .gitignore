@@ -8,9 +8,9 @@ codekit-config.json
 /site/accounts
 /site/cache
 /config.codekit3
-/site/config/config.beyondtellerrand.test.php
-/site/config/config.beyondtellerrand.local.php
-/site/config/config.beta.beyondtellerrand.local.php
+/site/config/config.spoiler.test.php
+/site/config/config.spoiler.local.php
+/site/config/config.beta.spoiler.local.php
 site/config/.license
 spoiler.code-workspace
 *.code-workspace
