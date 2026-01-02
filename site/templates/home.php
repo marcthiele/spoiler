@@ -134,9 +134,10 @@ ul {
     <img class="logo" src="assets/images/spoiler-logo.jpg">
     <p>Thanks for dropping by!<br>If you are interested in following our rehearsal and song writing process, follow us on <a href="https://instagram.com/spoiler.band">Instagram</a>, <a href="https://tiktok.com/@spoiler.band">TikTok</a> and <a href="https://youtube.com/@spoiler-band">YouTube</a>.</p>
     <p>Next shows:<br />
+    TBA<br />
+    Last shows:<br />
     15. November 2025 – Kulturrrampe, Krefeld – with <a href="https://killingalion.com/">Killing A Lion</a>, <a href="http://thevincentravenband.de">The Vincent Raven Band</a> and <a href="https://instagram.com/knowyourenemytribute/">know your enemy</a><br/>
-    <s>13. September 2025 – Moers – with <a href="https://drowninembers.com/">Drown in Embers</a> and Climbing Clouds</s> (Cancelled. New date soon)<br />
-    Last shows: 5. April 2025 – Rock am Dock II, Neuss.<br /></p>
+    5. April 2025 – Rock am Dock II, Neuss.<br /></p>
     <img class="bandphoto" src="assets/images/band-2024.jpg">
     <div class="social" role="navigation">
       <ul>
