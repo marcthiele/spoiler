@@ -136,8 +136,8 @@ ul {
     <p>Next shows:<br />
     TBA<br />
     Last shows:<br />
-    15. November 2025 – Kulturrrampe, Krefeld – with <a href="https://killingalion.com/">Killing A Lion</a>, <a href="http://thevincentravenband.de">The Vincent Raven Band</a> and <a href="https://instagram.com/knowyourenemytribute/">know your enemy</a><br/>
-    5. April 2025 – Rock am Dock II, Neuss.<br /></p>
+    15. November 2025 – MonsterMosh 25, Kulturrrampe in Krefeld<br/>
+    5. April 2025 – Rock am Dock II, Okiedokie in Neuss.<br /></p>
     <img class="bandphoto" src="assets/images/band-2024.jpg">
     <div class="social" role="navigation">
       <ul>
