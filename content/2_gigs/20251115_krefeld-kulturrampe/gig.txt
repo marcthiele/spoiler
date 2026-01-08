@@ -10,12 +10,16 @@ Venue: Kulturrampe
 
 ----
 
-Bands: 
+Bands: (link: https://killingalion.com text: Killing a Lion), (link: http://www.thevincentravenband.de text: The Vicent Raven Band), (link: https://www.instagram.com/knowyourenemytribute/ text: Know Your Enemy)
 
 ----
 
-Flyer: 
+Flyer:
 
 ----
 
-Uuid: 
+Tickets:
+
+----
+
+Uuid:

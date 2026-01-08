@@ -60,12 +60,12 @@ summary {
 /* Misc
 -------------------------------------------------- */
 ::-moz-selection {
-  background: #264653;
-  color: #f9f4ed;
+  background:  var(--headline-color);
+  color: var(--primary-color)
 }
 ::selection {
-  background: #264653;
-  color: #f9f4ed;
+  background:  var(--headline-color);
+  color: var(--primary-color)
 }
 
 
@@ -515,7 +515,8 @@ nav.nav-social ul li a:active svg path {
   margin-bottom: 3.052rem;
 }
 .blog-post .post-text,
-.blog-post .post-summary {
+.blog-post .post-summary,
+.gig .bands {
   grid-column: 2;
 }
 .blog-post figure {

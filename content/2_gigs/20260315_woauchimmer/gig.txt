@@ -1,0 +1,25 @@
+Date: 2026-03-15
+
+----
+
+City: Oberhausen
+
+----
+
+Venue: Turbinenhalle
+
+----
+
+Bands: Mal sehen
+
+----
+
+Flyer:
+
+----
+
+Tickets:
+
+----
+
+Uuid:
