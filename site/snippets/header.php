@@ -23,10 +23,11 @@
 <body id="page-<?= $page->template() ?>">
 
   <header id="page-start" class="header" role="banner">
+    <div class="masthead">
+      <img src="/assets/images/masthead-photo.jpg">
+    </div>
+
     <div class="header_inner layoutcontainer">
-      <div class="logo">
-        <a href="<?= url() ?>"><img class="header-logo" src="/assets/images/spoiler-s.png" alt="SPOILER Logo Signer S"></a>
-      </div>
       <nav class="nav-main" role="navigation">
         <ul>
           <?php foreach($pages->find('gigs', 'news', 'media-and-merch', 'band', 'press') AS $page): ?>

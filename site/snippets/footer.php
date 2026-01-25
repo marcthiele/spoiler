@@ -1,7 +1,7 @@
 <footer class="footer" role="contentinfo">
     <div class="footer_inner layoutcontainer">
       <div class="footer-logo footer-links">
-        <a href="<?= url() ?>"><img class="footer-logo" src="/assets/images/spoiler-logo-black.png" alt="SPOILER Logo"></a>
+        <a href="<?= url() ?>"><img class="footer-logo" src="/assets/images/spoiler-s-black-small.png" alt="SPOILER Logo"></a>
       </div>
       <nav class="nav-footer">
         <div class="footer-links">

@@ -10,6 +10,17 @@ return [
       'breaks' => true
   ],
   'panel' => [
-    'slug' => 'spoiler-admin'
+    'slug' => 'spoiler-admin',
+    'theme' => 'dark',
+    'menu' => [
+			'Aufnahme' => [
+				'icon'    => 'archive',
+				'label'   => 'Aufnahme',
+				'link'    => 'pages/aufnahme',
+			],
+			'-',
+			'users',
+			'system'
+    ]
   ]
 ];

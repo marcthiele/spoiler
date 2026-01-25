@@ -1,5 +1,6 @@
 User-agent: *
 Disallow: /download/
+Disallow: /aufnahme/
 Disallow: /site/
 Disallow: /kirby/
 Disallow: /assets/css/

@@ -3,6 +3,11 @@
   <div class="main_inner layoutcontainer">
 
   <?php foreach($gigs as $gig): ?>
+
+
+    <?php if(strtotime($scshow->showdate()->toDate('d M Y')) >= strtotime(date('d M Y'))): ?>
+
+
     <?php if ($gig->date()->toDate() >= date('Y-m-d')): ?>
       <h1>Was kommt … </h1>
       <div class="gig main-content">

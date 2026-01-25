@@ -1,0 +1,8 @@
+title: Aufnahme
+
+columns:
+  - width: 1/1
+    sections:
+      upload:
+        label: Datei
+        type: files
