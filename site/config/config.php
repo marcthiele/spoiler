@@ -10,7 +10,6 @@ return [
       'breaks' => true
   ],
   'panel' => [
-    'slug' => 'spoiler-admin',
-    'install' => true
+    'slug' => 'spoiler-admin'
   ]
 ];
