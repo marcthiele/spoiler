@@ -3,12 +3,7 @@
   <div class="main_inner layoutcontainer">
 
   <?php foreach($gigs as $gig): ?>
-
-
-    <?php if(strtotime($scshow->showdate()->toDate('d M Y')) >= strtotime(date('d M Y'))): ?>
-
-
-    <?php if ($gig->date()->toDate() >= date('Y-m-d')): ?>
+    <?php if ($gig->date() >= date('Y-m-d')): ?>
       <h1>Was kommt … </h1>
       <div class="gig main-content">
         <div class="post-meta">
@@ -17,7 +12,7 @@
         <h2><a href="<?= $gig->url() ?>"><?= $gig->venue() ?> in <?= $gig->city() ?></a></h2>
         <p class="bands">with <?= $gig->bands()->kti() ?></p>
       </div>
-    <?php elseif ($gig->date()->toDate() < date('Y-m-d')): ?>
+    <?php elseif ($gig->date() < date('Y-m-d')): ?>
       <h1>Was war … (Auszug)</h1>
       <div class="gig main-content">
         <div class="post-meta">
@@ -27,6 +22,7 @@
         <p class="bands">with <?= $gig->bands()->kti() ?></p>
       </div>
     <?php endif ?>
+
   <?php endforeach ?>
 
   </div>
